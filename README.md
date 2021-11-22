@@ -1,6 +1,6 @@
-# Cover's Documentation
+# SLY's Documentation
 
-Welcome [Cover's](https://covercode.ooo/) documentation! The open internet service for code verification on the Internet Computer.
+Welcome [SLY's](https://sly.ooo/) documentation! The open internet service for code verification on the Internet Computer.
 
 ## Getting started
 
