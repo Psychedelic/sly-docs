@@ -26,9 +26,9 @@ The Candid related utility commands bundled in Sly, assume that you already have
 and it helps you perform some common tasks on the files. This is the brief list of operations
 that we have (you can also run `sly candid -h` to see the list.)
 
-1. [check](#Check)
-3. [format](#Format)
-4. [gen](#Gen)
+1. [check](#check)
+3. [format](#format)
+4. [gen](#gen)
 
 
 ## Check
