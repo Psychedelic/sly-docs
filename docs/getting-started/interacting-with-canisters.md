@@ -5,11 +5,11 @@ date: "1"
 
 ## SLY - Interacting with Canisters
 
-Using Sly, you can make update or query calls to canisters, this calls can be directed to the
+Using SLY, you can make **update or query calls to canisters**, this calls can be directed to the
 local or main net by providing the top level `--network=ic/local` option, you can also provide
 any arbitrary http url for the `--network` option. By default, the local network is used.
 
-Note: The commands described here are subject to change in near future.
+> Note: The commands described here are subject to change in near future.
 
 ## Update calls
 

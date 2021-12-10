@@ -7,21 +7,21 @@ date: "1"
 
 As a command line program which is developed for easier interaction with the Internet Computer,
 it is only trivial to have a set of commands which can help user to manage their different
-identities. In Sly the `sly identity *` commands are there to give you control over the identities
+identities. In SLY the `sly identity *` commands are there to give you control over all the identities
 you have.
 
 You can see the full list of commands by running `sly identity -h`. Here we go through
 some topics you'll need to know.
 
-1. [Create](#create)
-2. [Import](#import)
+1. [Creating Identities](#create)
+2. [Importing Identities](#import)
 3. [Using identities](#switching-identity)
 
 ##  Create
 
 `sly identity create <NAME>`
 
-By default, Sly creates a new identity for you the first time a command is executed, this 
+By default, SLY creates a new identity for you the first time a command is executed, this 
 identity is named `default`.
 
 You can also create additional new identities by using this command. Even though we support

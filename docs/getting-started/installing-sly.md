@@ -5,11 +5,10 @@ date: "1"
 
 ## SLY - Installing SLY
 
-Currently, Sly is in alpha version, and you need to install it from source code, but because
-Rust is awesome, you can do that by simply running:
+Currently, SLY is in alpha version, and you need to install it from source code, but because Rust is awesome, you can do that by simply running cargo:
 
 ```
 cargo install sly-cli
 ```
 
-We will have ready binary releases as soon as we're out of alpha.
+> We will release binary releases as soon as SLY is out of alpha.
