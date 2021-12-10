@@ -5,7 +5,7 @@ date: "1"
 
 ## SLY - Workspace Management
 
-Intro
+Sly allows you to easily create a new project using `sly new <NAME>`.
 
-
-## Section
+We also have different templates that you can use, just use `sly new -h` to get more
+information about each template.

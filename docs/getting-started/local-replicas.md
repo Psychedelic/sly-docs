@@ -5,7 +5,6 @@ date: "1"
 
 ## SLY - Local Replicas
 
-Intro
-
-
-## Section
+Right now Sly uses only one replica per machine, so you can run `sly replica start` from
+any directory to start a local replica, this allows easier development of services that
+are depended on each other.
