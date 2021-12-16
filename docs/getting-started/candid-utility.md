@@ -36,7 +36,9 @@ that we have (you can also run `sly candid -h` to see the list.)
 
 ## Check
 
-`sly candid check <FILENAME>`
+```
+sly candid check <FILENAME>
+```
 
 This command can be used to verify the correctness of a candid file. It prints the diagnostic
 messages and exits with a non-zero exit code when an error is detected.
@@ -45,13 +47,17 @@ You can use this as part of your CI/CD pipeline if you manually maintain your ca
 
 ## Format
 
-`sly candid format [FILES]...`
+```
+sly candid format [FILES]...
+```
 
 Pretty print a candid file, this command overwrites the original files, use with caution.
 
 ## Gen
 
-`sly candid gen --js --ts --motoko --outdir ./bindings [FILES]...`
+```
+sly candid gen --js --ts --motoko --outdir ./bindings [FILES]...
+```
 
 Used to generate binding files in different languages for the provided candid files, it writes
 the generated files to the directory specified with `--outdir/-o`.

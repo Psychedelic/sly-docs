@@ -19,7 +19,9 @@ some topics you'll need to know.
 
 ##  Create
 
-`sly identity create <NAME>`
+```
+sly identity create <NAME>
+```
 
 By default, SLY creates a new identity for you the first time a command is executed, this 
 identity is named `default`.
@@ -31,7 +33,9 @@ The newly created identity is not the default, you should remember to switch you
 
 ## Import
 
-`sly identity import <NAME> <PEM>`
+```
+sly identity import <NAME> <PEM>
+```
 
 Imports a new identity from a PEM file under the given name. You should bear in mind that
 the newly imported identity is not set to be the default, and that you should switch your
@@ -39,7 +43,9 @@ identity.
 
 ## Switching identity
 
-`sly identity use <NAME>`
+```
+sly identity use <NAME>
+```
 
 Use this command if you want to change your default identity, you can verify the identity
 you are using by either running one of the following commands:
