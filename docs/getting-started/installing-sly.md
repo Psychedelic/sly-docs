@@ -5,6 +5,29 @@ date: "1"
 
 ## SLY - Installing SLY
 
+
+## Manual Installation
+
+To install SLY manually, you can clone the repository:
+
+```
+git clone git@github.com:Psychedelic/sly.git
+```
+
+Then build it locally
+
+```
+cargo build
+```
+
+And then the target binary will be available in the following route (from the project's root)
+
+```
+target/debug/sly
+```
+
+## Installing from Cargo
+
 Currently, SLY is in alpha version, and you need to install it from source code, but because Rust is awesome, you can do that by simply running cargo:
 
 ```
